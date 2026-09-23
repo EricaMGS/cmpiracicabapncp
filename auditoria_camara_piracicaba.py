@@ -45,8 +45,7 @@ if resposta.status_code == 200:
         print(df_auditoria.head())
         
         # Opcional: exportar para CSV caso queira baixar o artefato depois
-        # df_auditoria.to_csv("contratos_camara_piracicaba_2026.csv", index=False)
-        
+               
     else:
         print("Nenhum contrato encontrado para os parâmetros informados.")
 else:
